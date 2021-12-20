@@ -1,0 +1,14 @@
+{
+  "name": "my-shell-script",
+  "version": "1.0.0",
+  "description": "常用shell脚本备份",
+  "main": "index.js",
+  "scripts": {
+    "save": "sh ./git.sh",
+    "new": "sh ./hexo.sh",
+    "str2timestamp": "sh ./str2timestamp.sh '2021-12-20 14:30:00'",
+    "timestamp2str": "sh ./timestamp2str.sh 1639981800"
+  },
+  "author": "",
+  "license": ""
+}
